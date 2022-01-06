@@ -2,6 +2,7 @@
 #define FILE_H
 #include <string>
 #include <memory>
+#include <stdexcept>
 #include "config.h"
 
 class File

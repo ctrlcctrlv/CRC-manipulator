@@ -161,6 +161,7 @@ Examples:
         public:
             virtual void parse(std::vector<std::string> args) = 0;
             virtual void run() const = 0;
+            virtual ~Command() = default;
     };
 
     class CalculateCommand : public Command
